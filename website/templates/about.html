@@ -1,0 +1,38 @@
+{% extends "base.html" %} {% block title %}About{% endblock %}
+
+{% block content %}
+
+<h1 align="center">About</h1>
+<h3 align="left">Peek-A-Who?</h3>
+<p align="left">Peek-A-Boo Sunshine is a fun musical duo consisting of Ryan Fox and Joe Rogero. 
+    Joe & Ryan met on craigslist. 
+    The first encounter was in Ryan's poorly lit garage /spider farm after 18 months of social isolation. 
+    He didn't murder me. 
+    I didn't murder him so the meeting went well. 
+    We sounded terrible because the pandemic turned us into even MORE awkward mole people.
+    But once we emerged from our mole holes and started looking into each other's beady sun deprived eyes 
+    we married our guitars, voices, & ideas together to give birth to Peekaboo Sunshine. 
+</p>
+
+<p align="left"> Peekaboo Sunshine's songwriting style is "a naked". We share our insecurities & vulerabilities
+    with you via song (& sometimes dance) without bumming you out. Our arrangments are catchy- splashes of color 
+    with moments of dissonance to lure you in and fun you out. 
+</p>
+
+{% endblock %}
+
+{% block footer %}
+<hr>
+<h2>Peekaboo Sunshine Mailing List! </h2>
+<p><em>Get show dates, weird emails, & This Anything? Song ideas.</em></p>
+<div align="center">
+    <form style="text-align:left;" 
+    action="https://tinyletter.com/PeekabooSunshine" method="post" target="popupwindow" 
+    onsubmit="window.open('https://tinyletter.com/PeekabooSunshine', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <p><label for="tlemail">The Boo Sun</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p>
+    <input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe"/></form>
+  </div>
+  {%- endblock footer %}
+
+
+
